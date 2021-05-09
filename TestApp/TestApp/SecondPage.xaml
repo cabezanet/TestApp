@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp.SecondPage"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="jugadores" ItemTapped="Jugadores_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Imagen}"
+                                   WidthRequest="200"
+                                   HeightRequest="200"/>
+                                <StackLayout>
+                                    <Label Text="{Binding Nombre}"
+                                       FontSize="16" TextColor="Blue"
+                                       HorizontalOptions="FillAndExpand"/>
+                                    <Label Text="{Binding Equipo}"
+                                       FontSize="14" TextColor="Green"
+                                       HorizontalOptions="FillAndExpand"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

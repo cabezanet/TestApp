@@ -1,0 +1,16 @@
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\TestApp.deps.json
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\TestApp.dll
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\ref\TestApp.dll
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\bin\Debug\netstandard2.0\TestApp.pdb
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.csprojAssemblyReference.cache
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\DetailPage.xaml.g.cs
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\SecondPage.xaml.g.cs
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.AssemblyInfoInputs.cache
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.AssemblyInfo.cs
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.csproj.CoreCompileInputs.cache
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\XamlC.stamp
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.dll
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\ref\TestApp.dll
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp\obj\Debug\netstandard2.0\TestApp.pdb
