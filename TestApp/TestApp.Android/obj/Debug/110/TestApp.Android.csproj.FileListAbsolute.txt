@@ -66,6 +66,7 @@ H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\an
 H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\android\assets\mscorlib.dll
 H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\android\assets\mscorlib.pdb
 H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\android\assets\netstandard.dll
+H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\android\assets\Newtonsoft.Json.dll
 H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\android\assets\System.ComponentModel.Composition.dll
 H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\android\assets\System.ComponentModel.Composition.pdb
 H:\desarrollo-happening\xamarin\TestApp\TestApp\TestApp.Android\obj\Debug\110\android\assets\System.Core.dll

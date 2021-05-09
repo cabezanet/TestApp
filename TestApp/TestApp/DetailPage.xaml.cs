@@ -12,9 +12,12 @@ namespace TestApp
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class DetailPage : ContentPage
     {
-        public DetailPage(Object myItem)
+        public DetailPage(Object myPlayer)
         {
             InitializeComponent();
+            this.jugador.Text = (myPlayer as Jugador).Nombre + "\n" 
+                + (myPlayer as Jugador).Equipo + "\n"
+                + (myPlayer as Jugador).Imagen; 
         }
     }
 }

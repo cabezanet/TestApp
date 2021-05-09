@@ -33,7 +33,6 @@
                FontSize="Medium" 
                Padding="30" 
                HorizontalOptions="Center"/>
-        <Label Text="Go to Second Page" TextColor="Blue"/>
         <Button Text="go to second page" 
                 Clicked="goSecondPage"/>
         

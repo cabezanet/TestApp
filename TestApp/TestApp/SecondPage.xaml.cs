@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Diagnostics;
+using Newtonsoft.Json;
 
 namespace TestApp
 {
@@ -51,10 +53,14 @@ namespace TestApp
 
         private async void Jugadores_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            var myListView = (ListView)sender;
-            var myItem = myListView.SelectedItem;
+            var myListView = (ListView) sender;
+            var myPlayer = myListView.SelectedItem;
+            //var myItem = JsonConvert.DeserializeObject<Jugador>(myListView.SelectedItem);
 
-            await Navigation.PushAsync(new DetailPage(myItem));
+            await Navigation.PushAsync(new DetailPage(myPlayer));
+
+            Debug.WriteLine((myPlayer as Jugador).Nombre);
+
             /*
             var result = await DisplayAlert("Alert", myItem.ToString(), "Cancelar");
             if(result)

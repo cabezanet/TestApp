@@ -17,13 +17,14 @@ namespace TestApp
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            //text.Text = "You clicked me";
-            (sender as Button).Text = "You clicked me";
+            text.Text = "You clicked me";
+            //(sender as Button).Text = "You clicked me";
         }
 
         private void goSecondPage(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SecondPage());
+            text.Text = "This Text will change";
         }
 
     }
