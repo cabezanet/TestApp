@@ -24,7 +24,7 @@ namespace TestApp
         private void goSecondPage(object sender, EventArgs e)
         {
             Navigation.PushAsync(new SecondPage());
-            text.Text = "This Text will change";
+            //text.text = "this text will change";
         }
 
     }

@@ -27,6 +27,10 @@ namespace TestApp
 
             };
 
+            String json = JsonConvert.SerializeObject(jugador);
+
+            Debug.WriteLine(json);
+
             this.Jugadores.Add(jugador);
 
             jugador = new Jugador()
@@ -37,6 +41,10 @@ namespace TestApp
 
             };
 
+            json = JsonConvert.SerializeObject(jugador);
+
+            Debug.WriteLine(json);
+
             this.Jugadores.Add(jugador);
 
             jugador = new Jugador()
@@ -45,6 +53,10 @@ namespace TestApp
                 Nombre = "Michael Jordan",
                 Equipo = "Chicago Bulls"
             };
+
+            json = JsonConvert.SerializeObject(jugador);
+
+            Debug.WriteLine(json);
 
             this.Jugadores.Add(jugador);
 

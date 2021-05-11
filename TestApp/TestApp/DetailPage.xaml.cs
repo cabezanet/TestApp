@@ -15,9 +15,18 @@ namespace TestApp
         public DetailPage(Object myPlayer)
         {
             InitializeComponent();
+
+            imagen.Source = ((Jugador)myPlayer).Imagen;
+
+            nombre.Text = ((Jugador)myPlayer).Nombre;
+
+            equipo.Text = ((Jugador)myPlayer).Equipo;
+
+/*
             this.jugador.Text = (myPlayer as Jugador).Nombre + "\n" 
                 + (myPlayer as Jugador).Equipo + "\n"
-                + (myPlayer as Jugador).Imagen; 
+                + (myPlayer as Jugador).Imagen;
+*/
         }
     }
 }

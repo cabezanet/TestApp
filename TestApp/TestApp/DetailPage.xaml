@@ -1,13 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TestApp.DetailPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label x:Name="jugador"
-                   FontSize="14" TextColor="Green"
-                   HorizontalOptions="CenterAndExpand"
-                   VerticalOptions="CenterAndExpand"/>
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="TestApp.DetailPage">
+	<ContentPage.Content>
+        <StackLayout HorizontalOptions="FillAndExpand"
+				   VerticalOptions="FillAndExpand">
+ <!--            <Label x:Name="jugador"
+				   FontSize="14" TextColor="Green"
+				   HorizontalOptions="CenterAndExpand"
+				   VerticalOptions="CenterAndExpand"/>
+-->
+            
+			<Image x:Name="imagen" Aspect="AspectFill" BackgroundColor="Red" HorizontalOptions="FillAndExpand"
+				   HeightRequest="200"/>
+            <BoxView BackgroundColor="Red" HeightRequest="2" Margin="0,-6,0,0"></BoxView>
+            <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="LightGray" Margin="0,-6,0,-6" Padding="5">
+				<Label x:Name="nombre"
+						FontSize="16" TextColor="Blue"
+						HorizontalOptions="FillAndExpand"/>
+				<Label x:Name="equipo"
+							FontSize="14" TextColor="Green"
+							HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <BoxView BackgroundColor="Gray" HeightRequest="2" Margin="0,0,0,0"></BoxView>
         </StackLayout>
-    </ContentPage.Content>
+	</ContentPage.Content>
 </ContentPage>
